@@ -31,7 +31,7 @@ This repository contains all software analysis and design artefacts produced thr
 | IT Development Team | Builds and maintains the platform | High |
 | Payment System Provider | Processes transactions securely | Medium |
 
-> Full stakeholder analysis is available in /stakeholders_table.docx
+> Full stakeholder analysis is available in stakeholders_table.docx
 
 ---
 
