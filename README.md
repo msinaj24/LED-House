@@ -62,7 +62,7 @@ This repository contains all software analysis and design artefacts produced thr
 
 ## 📐 Design Methodology
 
-This project follows a structured **Software Analysis & Design** approach, including:
+This project follows a structured **Software Analysis & Design** approach including:
 
 - **Requirements Elicitation** —Stakeholder interviews, use case analysis
 - **Functional Requirements** — Documented user stories and system functions
