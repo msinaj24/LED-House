@@ -15,7 +15,7 @@ This repository contains all software analysis and design artefacts produced thr
 
 - Provide customers with a 24/7 online storefront for electrical products
 - Automate order processing and inventory management for the shop owner
-- Integrate a secure, PCI-DSS compliant payment gateway (the european vresion - Open Banking Payments)
+- Integrate a secure, PCI-DSS compliant payment gateway 
 - Enable real-time order tracking via a logistics/delivery partner
 - Deliver a responsive, mobile-friendly user interface
 
