@@ -1,71 +1,83 @@
-💡 LED House — Electrical Shop
+# 💡 LED House — Electrical Shop
+### *"Where every home finds its light."*
 
-Software Analysis & Design Project
+> **Software Analysis & Design Project** | Web-based E-Commerce System for a Local Electrical Shop
 
-📋 Project Overview
+---
 
-LED House is a web-based e-commerce system designed for a small local electrical shop, enabling customers to browse, search, and purchase electrical products online.
+## 📋 Project Overview
 
-This project focuses on the analysis and design of the system, including requirements specification, stakeholder identification, use case modelling, and system architecture. The goal is not to develop a fully functional application, but to design a structured solution that supports the shop’s daily operations.
+**LED House** is a web-based e-commerce system designed for a small local electrical shop, enabling customers to browse, search, and purchase electrical products online.
 
-The system is intended to support product management, customer orders, and online payments through a bank-provided POS system, reflecting common practices in Albania.
+This project focuses on the **analysis and design** of the system, including requirements specification, stakeholder identification, use case modelling, and system architecture. The goal is not to develop a fully functional application, but to design a structured solution that supports the shop's daily operations.
 
-🎯 Project Objectives
+The system supports product management, customer orders, and online payments through a bank-provided POS system — reflecting common practices in **Albania**.
 
-Provide customers with an online platform to explore and purchase products
+---
 
-Support the shop owner in managing products and customer orders
+## 🎯 Project Objectives
 
-Enable secure online payments through POS services
+| # | Objective |
+|---|-----------|
+| 1 | Provide customers with an online platform to explore and purchase products |
+| 2 | Support the shop owner in managing products and customer orders |
+| 3 | Enable secure online payments through POS services |
+| 4 | Improve efficiency in handling sales and product information |
+| 5 | Design a simple and user-friendly interface |
 
-Improve efficiency in handling sales and product information
+---
 
-Design a simple and user-friendly interface
+## 👥 Stakeholders
 
-👥 Stakeholders
-Stakeholder	Role / Responsibility	Influence	Importance
-Shop Owner / System Administrator	Manages products, prices, and orders; controls system usage	High	High
-Store Employee	Assists in updating products and handling orders	Medium	Medium
-End Customer	Browses products and places orders	Medium	High
-Bank / Payment Provider	Processes online payments through POS system	Medium	High
-Development Team (Project Team)	Performs system analysis and design	High	High
-🔍 System Overview
-Key Features
+| Stakeholder | Role / Responsibility | Influence | Importance |
+|---|---|:---:|:---:|
+| 🏪 Shop Owner / Admin | Manages products, prices, and orders; controls system usage | 🔴 High | 🔴 High |
+| 🧑‍💼 Store Employee | Assists in updating products and handling orders | 🟡 Medium | 🟡 Medium |
+| 🛒 End Customer | Browses products and places orders | 🟡 Medium | 🔴 High |
+| 🏦 Bank / Payment Provider | Processes online payments through POS system | 🟡 Medium | 🔴 High |
+| 💻 Development Team | Performs system analysis and design | 🔴 High | 🔴 High |
 
-Product Catalogue — Display products by category, price, and description
+---
 
-Search & Filtering — Help users quickly find products
+## 🔍 System Overview
 
-User Interaction — Basic customer interaction for placing orders
+### Key Features
 
-Shopping Cart & Checkout — Add products and complete purchases
+| Feature | Description |
+|---|---|
+| 📦 Product Catalogue | Display products by category, price, and description |
+| 🔎 Search & Filtering | Help users quickly find products |
+| 👤 User Interaction | Basic customer interaction for placing orders |
+| 🛒 Shopping Cart & Checkout | Add products and complete purchases |
+| 💳 Payment Integration | Payment through external POS services |
+| 📋 Order Management | Owner views and manages incoming orders |
 
-Payment Integration — Payment through external POS services
+---
 
-Order Management — Owner views and manages incoming orders
+## ⚙️ Key Quality Attributes
 
-⚙️ Key Quality Attributes
-Attribute	Requirement
-Security	Secure handling of user data and payments via external POS systems
-Usability	Simple and intuitive interface suitable for all users
-Performance	Fast loading pages under normal usage conditions
-Availability	System accessible to users when needed
-Maintainability	Easy to update products and system content
-📐 Design Methodology
+| Attribute | Requirement |
+|---|---|
+| 🔒 Security | Secure handling of user data and payments via external POS systems |
+| 🖥️ Usability | Simple and intuitive interface suitable for all users |
+| ⚡ Performance | Fast loading pages under normal usage conditions |
+| 🌐 Availability | System accessible to users when needed |
+| 🔧 Maintainability | Easy to update products and system content |
 
-This project follows a structured Software Analysis & Design approach, including:
+---
 
-Requirements Elicitation — Identifying system needs based on the shop context
+## 📐 Design Methodology
 
-Functional Requirements — Defining system features and user interactions
+This project follows a structured **Software Analysis & Design** approach:
 
-Non-Functional Requirements — Defining performance, usability, and security needs
+| Phase | Description |
+|---|---|
+| 📝 Requirements Elicitation | Identifying system needs based on the shop context |
+| ✅ Functional Requirements | Defining system features and user interactions |
+| 📊 Non-Functional Requirements | Defining performance, usability, and security needs |
+| 📐 UML Modelling | Use case diagrams, activity diagrams, and system structure |
+| 🏗️ System Architecture | Designing a clear and simple system structure |
+| 🎨 UI/UX Design | Creating basic interface layouts and user flow |
 
-UML Modelling — Use case diagrams, activity diagrams, and system structure
+---
 
-System Architecture — Designing a clear and simple system structure
-
-UI/UX Design — Creating basic interface layouts and user flow
-
-
-LED House — “Where every home finds its light.”
