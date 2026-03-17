@@ -15,15 +15,17 @@ The system supports product management, customer orders, and online payments thr
 
 ---
 
-## 🎯 Project Objectives
+🎯 Project Objectives
 
-| # | Objective |
-|---|-----------|
-| 1 | Provide customers with an online platform to explore and purchase products |
-| 2 | Support the shop owner in managing products and customer orders |
-| 3 | Enable secure online payments through POS services |
-| 4 | Improve efficiency in handling sales and product information |
-| 5 | Design a simple and user-friendly interface |
+Provide customers with an online platform to explore and purchase products
+
+Support the shop owner in managing products and customer orders
+
+Enable secure online payments through POS services
+
+Improve efficiency in handling sales and product information
+
+Design a simple and user-friendly interface
 
 ---
 
