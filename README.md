@@ -11,7 +11,7 @@
 
 This project focuses on the **analysis and design** of the system, including requirements specification, stakeholder identification, use case modelling, and system architecture. The goal is not to develop a fully functional application, but to design a structured solution that supports the shop's daily operations.
 
-The system supports product management, customer orders, and online payments through a bank-provided POS system — reflecting common practices in **Albania**.
+The system supports product management, customer orders, and multiple payment methods, combining international and local payment practices — reflecting common practices in **Albania**.
 
 ---
 
@@ -21,13 +21,65 @@ Provide customers with an online platform to explore and purchase products
 
 Support the shop owner in managing products and customer orders
 
-Enable secure online payments through POS services
+Enable secure and flexible online payments
 
 Improve efficiency in handling sales and product information
 
 Design a simple and user-friendly interface
 
 ---
+
+## 💳 Payment System Design
+
+To ensure flexibility and usability, the system implements a hybrid payment approach, integrating both international and local payment methods:
+
+PayPal – supports secure and trusted international transactions
+
+2Checkout (Verifone) – enables credit/debit card payments via hosted checkout
+
+Cash on Delivery (COD) – allows local customers to pay upon delivery
+
+This combination reflects real-world e-commerce practices in Albania, where both digital and cash-based payments are widely used.
+
+## ⚙️ Functional Requirements
+## 🛍️ Product Management
+
+Add, update, and delete products
+
+Display product details (name, price, description, availability)
+
+Support product search and filtering
+
+## 👤 Customer Management
+
+User registration and authentication
+
+View and manage customer orders
+
+## 🧾 Order Management
+
+Add products to shopping cart
+
+Place orders
+
+Store order details in the database
+
+## 💳 Payment Processing
+
+Select preferred payment method:
+
+PayPal
+
+Credit/Debit Card (via 2Checkout)
+
+Cash on Delivery (COD)
+
+Secure redirection to external payment providers
+
+Confirmation of successful transactions
+
+Support order placement without online payment (COD)
+
 
 ## 👥 Stakeholders
 
