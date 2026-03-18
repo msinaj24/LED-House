@@ -1,4 +1,4 @@
-# 💡 LED House — Electrical Shop
+# 💡 LED House — Electrical Shop  
 ### *"Where every home finds its light."*
 
 > **Software Analysis & Design Project** | Web-based E-Commerce System for a Local Electrical Shop
@@ -11,75 +11,58 @@
 
 This project focuses on the **analysis and design** of the system, including requirements specification, stakeholder identification, use case modelling, and system architecture. The goal is not to develop a fully functional application, but to design a structured solution that supports the shop's daily operations.
 
-The system supports product management, customer orders, and multiple payment methods, combining international and local payment practices — reflecting common practices in **Albania**.
+The system supports product management, customer orders, and multiple payment methods, combining international and local payment practices — reflecting common practices in Albania.
 
 ---
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 
-Provide customers with an online platform to explore and purchase products
-
-Support the shop owner in managing products and customer orders
-
-Enable secure and flexible online payments
-
-Improve efficiency in handling sales and product information
-
-Design a simple and user-friendly interface
+- Provide customers with an online platform to explore and purchase products  
+- Support the shop owner in managing products and customer orders  
+- Enable secure and flexible online payments  
+- Improve efficiency in handling sales and product information  
+- Design a simple and user-friendly interface  
 
 ---
 
 ## 💳 Payment System Design
 
-To ensure flexibility and usability, the system implements a hybrid payment approach, integrating both international and local payment methods:
+To ensure flexibility and usability, the system implements a **hybrid payment approach**, integrating both international and local payment methods:
 
-PayPal – supports secure and trusted international transactions
-
-2Checkout (Verifone) – enables credit/debit card payments via hosted checkout
-
-Cash on Delivery (COD) – allows local customers to pay upon delivery
+- PayPal – supports secure and trusted international transactions  
+- 2Checkout (Verifone) – enables credit/debit card payments via hosted checkout  
+- **Cash on Delivery (COD)** – allows local customers to pay upon delivery  
 
 This combination reflects real-world e-commerce practices in Albania, where both digital and cash-based payments are widely used.
 
+---
+
 ## ⚙️ Functional Requirements
-## 🛍️ Product Management
 
-Add, update, and delete products
+### 🛍️ Product Management
+- Add, update, and delete products  
+- Display product details (name, price, description, availability)  
+- Support product search and filtering  
 
-Display product details (name, price, description, availability)
+### 👤 Customer Management
+- User registration and authentication  
+- View and manage customer orders  
 
-Support product search and filtering
+### 🧾 Order Management
+- Add products to shopping cart  
+- Place orders  
+- Store order details in the database  
 
-## 👤 Customer Management
+### 💳 Payment Processing
+- Select preferred payment method:
+  - PayPal  
+  - Credit/Debit Card (via 2Checkout)  
+  - Cash on Delivery (COD)  
+- Secure redirection to external payment providers  
+- Confirmation of successful transactions  
+- Support order placement without online payment (COD)  
 
-User registration and authentication
-
-View and manage customer orders
-
-## 🧾 Order Management
-
-Add products to shopping cart
-
-Place orders
-
-Store order details in the database
-
-## 💳 Payment Processing
-
-Select preferred payment method:
-
-PayPal
-
-Credit/Debit Card (via 2Checkout)
-
-Cash on Delivery (COD)
-
-Secure redirection to external payment providers
-
-Confirmation of successful transactions
-
-Support order placement without online payment (COD)
-
+---
 
 ## 👥 Stakeholders
 
@@ -88,7 +71,7 @@ Support order placement without online payment (COD)
 | 🏪 Shop Owner / Admin | Manages products, prices, and orders; controls system usage | 🔴 High | 🔴 High |
 | 🧑‍💼 Store Employee | Assists in updating products and handling orders | 🟡 Medium | 🟡 Medium |
 | 🛒 End Customer | Browses products and places orders | 🟡 Medium | 🔴 High |
-| 🏦 Bank / Payment Provider | Processes online payments through POS system | 🟡 Medium | 🔴 High |
+| 🏦 Bank / Payment Provider | Processes online payments and external payment services | 🟡 Medium | 🔴 High |
 | 💻 Development Team | Performs system analysis and design | 🔴 High | 🔴 High |
 
 ---
@@ -101,9 +84,9 @@ Support order placement without online payment (COD)
 |---|---|
 | 📦 Product Catalogue | Display products by category, price, and description |
 | 🔎 Search & Filtering | Help users quickly find products |
-| 👤 User Interaction | Basic customer interaction for placing orders |
+| 👤 User Interaction | Customer interaction for browsing and ordering |
 | 🛒 Shopping Cart & Checkout | Add products and complete purchases |
-| 💳 Payment Integration | Payment through external POS services |
+| 💳 Payment Integration | Payments via PayPal, 2Checkout, or COD |
 | 📋 Order Management | Owner views and manages incoming orders |
 
 ---
@@ -112,7 +95,7 @@ Support order placement without online payment (COD)
 
 | Attribute | Requirement |
 |---|---|
-| 🔒 Security | Secure handling of user data and payments via external POS systems |
+| 🔒 Security | Secure handling of user data and payments via external providers |
 | 🖥️ Usability | Simple and intuitive interface suitable for all users |
 | ⚡ Performance | Fast loading pages under normal usage conditions |
 | 🌐 Availability | System accessible to users when needed |
@@ -134,4 +117,3 @@ This project follows a structured **Software Analysis & Design** approach:
 | 🎨 UI/UX Design | Creating basic interface layouts and user flow |
 
 ---
-
