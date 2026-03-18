@@ -64,6 +64,64 @@ This combination reflects real-world e-commerce practices in Albania, where both
 
 ---
 
+## 📊 Sales Analytics & Business Strategies
+
+To support business decision-making, the system includes features for tracking sales performance and enabling basic business strategies.
+
+### 📈 Sales Tracking
+
+- Monitor the number of times each product is purchased  
+- Track total sales revenue over a selected period  
+- Identify best-selling and low-performing products  
+
+### 💰 Profit Calculation
+
+The system allows the shop owner to analyze profitability by storing:
+
+- **Purchase Price** (cost of acquiring the product)  
+- **Selling Price** (price offered to customers)  
+
+Based on this, the system can calculate:
+
+- Profit per product  
+- Total profit over time  
+- Profit margins  
+
+### 🧠 Business Insights
+
+- Identify which products generate the highest profit  
+- Adjust pricing strategies based on performance  
+- Optimize inventory by focusing on high-demand items  
+
+### 🏷️ Sales & Promotions
+
+- Apply discounts to selected products  
+- Create promotional campaigns (e.g., seasonal sales)  
+- Highlight special offers on the homepage  
+
+### 📊 Reporting Features
+
+- Generate simple sales reports  
+- View order history and transaction summaries  
+- Analyze trends in customer purchasing behavior  
+
+---
+
+### ✅ Example Use Case: Analyze Profit
+
+**Actor:** Shop Owner  
+
+**Flow:**
+1. Owner logs into the system  
+2. Navigates to the sales dashboard  
+3. Selects a product  
+4. System displays:
+   - Total units sold  
+   - Purchase cost  
+   - Selling price  
+   - Calculated profit  
+5. Owner uses this information to make pricing or stocking decisions
+
 ## 👥 Stakeholders
 
 | Stakeholder | Role / Responsibility | Influence | Importance |
