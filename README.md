@@ -13,6 +13,8 @@ This project focuses on the **analysis and design** of the system, including req
 
 The system supports product management, customer orders, and multiple payment methods, combining international and local payment practices — reflecting common practices in Albania.
 
+Additionally, the system includes basic sales analytics features to support business decision-making and profitability tracking.
+
 ---
 
 ## 🎯 Project Objectives
