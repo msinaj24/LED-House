@@ -144,10 +144,11 @@ Based on this, the system can calculate:
 |---|---|
 | 📦 Product Catalogue | Display products by category, price, and description |
 | 🔎 Search & Filtering | Help users quickly find products |
-| 👤 User Interaction | Customer interaction for browsing and ordering |
+| 👤 User Interaction | Customer registration, login, and order management |
 | 🛒 Shopping Cart & Checkout | Add products and complete purchases |
 | 💳 Payment Integration | Payments via PayPal, 2Checkout, or COD |
 | 📋 Order Management | Owner views and manages incoming orders |
+| 📊 Sales Analytics | Track sales, profit, and product performance |
 
 ---
 
@@ -155,8 +156,8 @@ Based on this, the system can calculate:
 
 | Attribute | Requirement |
 |---|---|
-| 🔒 Security | Secure handling of user data and payments via external providers |
-| 🖥️ Usability | Simple and intuitive interface suitable for all users |
+| 🔒 Security | Secure handling of user data, payments, and sales analytics via external providers |
+| 🖥️ Usability | Simple and intuitive interface for browsing, ordering, and accessing sales analytics |
 | ⚡ Performance | Fast loading pages under normal usage conditions |
 | 🌐 Availability | System accessible to users when needed |
 | 🔧 Maintainability | Easy to update products and system content |
@@ -169,11 +170,11 @@ This project follows a structured **Software Analysis & Design** approach:
 
 | Phase | Description |
 |---|---|
-| 📝 Requirements Elicitation | Identifying system needs based on the shop context |
-| ✅ Functional Requirements | Defining system features and user interactions |
+| 📝 Requirements Elicitation | Identifying system needs based on the shop context, including sales trackingand analytics |
+| ✅ Functional Requirements | Defining system features, user interactions, and analytics functions |
 | 📊 Non-Functional Requirements | Defining performance, usability, and security needs |
-| 📐 UML Modelling | Use case diagrams, activity diagrams, and system structure |
-| 🏗️ System Architecture | Designing a clear and simple system structure |
-| 🎨 UI/UX Design | Creating basic interface layouts and user flow |
+| 📐 UML Modelling | Use case diagrams, activity diagrams, and system structure including analytics flows |
+| 🏗️ System Architecture | Designing a clear and simple system structure with analytics integration |
+| 🎨 UI/UX Design | Creating basic interface layouts, user flow, and sales dashboard |
 
 ---
