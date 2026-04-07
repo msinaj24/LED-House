@@ -44,16 +44,32 @@ This combination reflects real-world e-commerce practices in Albania, where both
 ### 🛍️ Product Management
 - Add, update, and delete products  
 - Display product details (name, price, description, availability)  
-- Support product search and filtering  
+- Support product search and filtering
+
+  ### 📦 Inventory Management
+- Track product stock quantity  
+- Automatically update stock after purchase  
+- Prevent ordering out-of-stock products 
 
 ### 👤 Customer Management
 - User registration and authentication  
 - View and manage customer orders  
 
-### 🧾 Order Management
+### 🧾 Order & Service Management
 - Add products to shopping cart  
-- Place orders  
-- Store order details in the database  
+- Place product orders  
+- Submit service/repair requests  
+- Store order and service details in the database  
+- Track status:
+  - Orders → Pending, Confirmed, Delivered  
+  - Services → Pending, In Progress, Ready
+
+### 🔧 Service Management
+- Customers can request repair/service  
+- Provide product/problem description  
+- System stores service request details  
+- Owner/employee can update service status  
+- Set estimated completion time
 
 ### 💳 Payment Processing
 - Select preferred payment method:
@@ -63,6 +79,13 @@ This combination reflects real-world e-commerce practices in Albania, where both
 - Secure redirection to external payment providers  
 - Confirmation of successful transactions  
 - Support order placement without online payment (COD)  
+
+### 🔔 Notification System
+- Notify customers when:
+  - Order is confirmed  
+  - Order is delivered  
+  - Repair/service is completed  
+- Notifications via email or phone (SMS/manual call)  
 
 ---
 
@@ -148,6 +171,8 @@ Based on this, the system can calculate:
 | 🛒 Shopping Cart & Checkout | Add products and complete purchases |
 | 💳 Payment Integration | Payments via PayPal, 2Checkout, or COD |
 | 📋 Order Management | Owner views and manages incoming orders |
+| 🔧 Service Requests | Submit and track repairs |
+| 🔔 Notifications | Order/service updates |
 | 📊 Sales Analytics | Track sales, profit, and product performance |
 
 ---
