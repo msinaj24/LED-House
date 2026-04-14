@@ -202,4 +202,7 @@ This project follows a structured **Software Analysis & Design** approach:
 | 🏗️ System Architecture | Designing a clear and simple system structure with analytics integration |
 | 🎨 UI/UX Design | Creating basic interface layouts, user flow, and sales dashboard |
 
+## BPMN Diagram
+
+![Order Payment Process](BPMN/bpmn-order-payment.drawio.png)
 ---
