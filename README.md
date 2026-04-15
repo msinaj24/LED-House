@@ -205,4 +205,8 @@ This project follows a structured **Software Analysis & Design** approach:
 ## BPMN Diagram
 
 ![Order Payment Process](BPMN/bpmn-order-payment.drawio.png)
+
+## 📄 Documentation
+
+[View Project Documentation (PDF)](LED_House_System_Documentation.pdf)
 ---
